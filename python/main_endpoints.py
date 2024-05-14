@@ -66,4 +66,3 @@ print(f"The response object:\n{response}\n")
 
 # Print the assistant's response
 print(f"Assistant: {response.data[-1].content[0].text.value}")
-    
